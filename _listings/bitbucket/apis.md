@@ -1,23 +1,22 @@
 ---
 name: Bitbucket
 x-slug: bitbucket
-description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-  data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-  into Bitbucket itself using the Connect framework.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+description: Collaborate on code with inline comments and pull requests. Manage and
+  share your Git repositories to build and ship software, as a team.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "901"
 tags: Bitbucket
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/bitbucket/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Bitbucket Delete Add On
   x-api-slug: bitbucket
   description: Delete addon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon
   tags: Addon
   properties:
@@ -28,8 +27,8 @@ apis:
 - name: Bitbucket Parameters Add On
   x-api-slug: bitbucket
   description: Parameters addon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon
   tags: Addon
   properties:
@@ -40,8 +39,8 @@ apis:
 - name: Bitbucket Update Add On
   x-api-slug: bitbucket
   description: Put addon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon
   tags: Addon
   properties:
@@ -52,8 +51,8 @@ apis:
 - name: Bitbucket Get Add On Linkers
   x-api-slug: bitbucket
   description: Get addon linkers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers
   tags: Addon, Linkers
   properties:
@@ -64,8 +63,8 @@ apis:
 - name: Bitbucket Parameters Add On Linkers
   x-api-slug: bitbucket
   description: Parameters addon linkers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers
   tags: Addon, Linkers
   properties:
@@ -76,8 +75,8 @@ apis:
 - name: Bitbucket Get Add On Linkers Linker Key
   x-api-slug: bitbucket
   description: Get addon linkers linker key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}
   tags: Addon, Linkers, Linker, Key
   properties:
@@ -88,8 +87,8 @@ apis:
 - name: Bitbucket Parameters Add On Linkers Linker Key
   x-api-slug: bitbucket
   description: Parameters addon linkers linker key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}
   tags: Addon, Linkers, Linker, Key
   properties:
@@ -100,8 +99,8 @@ apis:
 - name: Bitbucket Delete Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Delete addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -112,8 +111,8 @@ apis:
 - name: Bitbucket Get Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Get addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -124,8 +123,8 @@ apis:
 - name: Bitbucket Parameters Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Parameters addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -136,8 +135,8 @@ apis:
 - name: Bitbucket Add Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Post addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -148,8 +147,8 @@ apis:
 - name: Bitbucket Update Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Put addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -160,8 +159,8 @@ apis:
 - name: Bitbucket Delete Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Delete addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values/
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -172,8 +171,8 @@ apis:
 - name: Bitbucket Get Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Get addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values/
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -184,8 +183,8 @@ apis:
 - name: Bitbucket Parameters Add On Linkers Linker Key Values
   x-api-slug: bitbucket
   description: Parameters addon linkers linker key values
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//addon/linkers/{linker_key}/values/
   tags: Addon, Linkers, Linker, Key, Values
   properties:
@@ -235,8 +234,8 @@ apis:
         }
     }
     ```
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//hook_events
   tags: Hook, Events
   properties:
@@ -247,8 +246,8 @@ apis:
 - name: Bitbucket Parameters Hook Events
   x-api-slug: bitbucket
   description: Parameters hook events
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//hook_events
   tags: Hook, Events
   properties:
@@ -298,8 +297,8 @@ apis:
         ]
     }
     ```
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//hook_events/{subject_type}
   tags: Hook, Events, Subject, Type
   properties:
@@ -310,8 +309,8 @@ apis:
 - name: Bitbucket Parameters Hook Events Subject Type
   x-api-slug: bitbucket
   description: Parameters hook events subject type
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//hook_events/{subject_type}
   tags: Hook, Events, Subject, Type
   properties:
@@ -326,8 +325,8 @@ apis:
 
     This endpoint also supports filtering and sorting of the results. See
     [filtering and sorting](../meta/filtering) for more details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories
   tags: Repositories
   properties:
@@ -338,8 +337,8 @@ apis:
 - name: Bitbucket Parameters Repositories
   x-api-slug: bitbucket
   description: Parameters repositories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories
   tags: Repositories
   properties:
@@ -361,8 +360,8 @@ apis:
 
     This endpoint also supports filtering and sorting of the results. See
     [filtering and sorting](../../meta/filtering) for more details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}
   tags: Repositories, Username
   properties:
@@ -373,8 +372,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username
   x-api-slug: bitbucket
   description: Parameters repositories username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}
   tags: Repositories, Username
   properties:
@@ -388,8 +387,8 @@ apis:
     Deletes the repository. This is an irreversible operation.
 
     This does not affect its forks.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}
   tags: Repositories, Username, Repo, Slug
   properties:
@@ -400,8 +399,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug
   x-api-slug: bitbucket
   description: Returns the object describing this repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}
   tags: Repositories, Username, Repo, Slug
   properties:
@@ -412,8 +411,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}
   tags: Repositories, Username, Repo, Slug
   properties:
@@ -456,8 +455,8 @@ apis:
 
     Note: In the examples above, the username `teamsinspace`,
     and/or the repository name `hablanding` can be replaced by UUIDs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}
   tags: Repositories, Username, Repo, Slug
   properties:
@@ -483,8 +482,8 @@ apis:
     with an existing repository's slug. But if there is no conflict,
     the new location will be returned in the `Location` header of the
     response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}
   tags: Repositories, Username, Repo, Slug
   properties:
@@ -495,8 +494,8 @@ apis:
   description: |-
     Returns a paginated list of all branch restrictions on the
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -507,8 +506,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -545,8 +544,8 @@ apis:
 
     Note that branch restrictions with overlapping patterns are allowed,
     but the resulting behavior may be surprising.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -555,8 +554,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Delete repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -567,8 +566,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Get repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -579,8 +578,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -596,8 +595,8 @@ apis:
     Fields not present in the request body are ignored.
 
     See [`POST`](../../branch-restrictions#post) for details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -612,8 +611,8 @@ apis:
     the repository. In contrast, just the fact that a repository is
     publicly accessible to users does not give them the ability to approve
     commits.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/approve
   tags: Repositories, Username, Repo, Slug, Commit, Node, Approve
   properties:
@@ -624,8 +623,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commit Node Approve
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit node approve
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/approve
   tags: Repositories, Username, Repo, Slug, Commit, Node, Approve
   properties:
@@ -642,8 +641,8 @@ apis:
     the repository. In contrast, just the fact that a repository is
     publicly accessible to users does not give them the ability to approve
     commits.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/approve
   tags: Repositories, Username, Repo, Slug, Commit, Node, Approve
   properties:
@@ -654,8 +653,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Commit Node Statuses
   x-api-slug: bitbucket
   description: Returns all statuses (e.g. build results) for a specific commit.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses
   properties:
@@ -666,8 +665,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commit Node Statuses
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit node statuses
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses
   properties:
@@ -679,8 +678,8 @@ apis:
     Build
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit node statuses build
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses/build
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses, Build
   properties:
@@ -704,8 +703,8 @@ apis:
     For example, one could use `https://foo.com/builds/{repository.full_name}`
     which Bitbucket will turn into `https://foo.com/builds/foo/bar` at render time.
     The context variables available are `repository` and `commit`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses/build
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses, Build
   properties:
@@ -716,8 +715,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Commit Node Statuses Build Key
   x-api-slug: bitbucket
   description: Get repositories username repo slug commit node statuses build key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses/build/{key}
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses, Build, Key
   properties:
@@ -730,8 +729,8 @@ apis:
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit node statuses build
     key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses/build/{key}
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses, Build, Key
   properties:
@@ -756,8 +755,8 @@ apis:
     * `refname`
 
     The `key` cannot be changed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{node}/statuses/build/{key}
   tags: Repositories, Username, Repo, Slug, Commit, Node, Statuses, Build, Key
   properties:
@@ -766,8 +765,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Commit Revision
   x-api-slug: bitbucket
   description: Get repositories username repo slug commit revision
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{revision}
   tags: Repositories, Username, Repo, Slug, Commit, Revision
   properties:
@@ -778,8 +777,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commit Revision
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit revision
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{revision}
   tags: Repositories, Username, Repo, Slug, Commit, Revision
   properties:
@@ -796,8 +795,8 @@ apis:
 
     The default sorting is oldest to newest and can be overridden with
     the `sort` query parameter.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{sha}/comments
   tags: Repositories, Username, Repo, Slug, Commit, Sha, Comments
   properties:
@@ -808,8 +807,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commit Sha Comments
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit sha comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{sha}/comments
   tags: Repositories, Username, Repo, Slug, Commit, Sha, Comments
   properties:
@@ -820,8 +819,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Commit Sha Comments Comment
   x-api-slug: bitbucket
   description: Get repositories username repo slug commit sha comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{sha}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Commit, Sha, Comments, Comment
   properties:
@@ -832,8 +831,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commit Sha Comments Comment
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commit sha comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commit/{sha}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Commit, Sha, Comments, Comment
   properties:
@@ -881,8 +880,8 @@ apis:
 
     When the include and exclude parameters are more than can fit in a
     query string, clients can use a `x-www-form-urlencoded` POST instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
   tags: Repositories, Username, Repo, Slug, Commits
   properties:
@@ -893,8 +892,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commits
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commits
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
   tags: Repositories, Username, Repo, Slug, Commits
   properties:
@@ -910,8 +909,8 @@ apis:
     parameters in the request body to avoid URL length issues.
 
     **Note that this resource does NOT support new commit creation.**
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
   tags: Repositories, Username, Repo, Slug, Commits
   properties:
@@ -959,8 +958,8 @@ apis:
 
     When the include and exclude parameters are more than can fit in a
     query string, clients can use a `x-www-form-urlencoded` POST instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
   tags: Repositories, Username, Repo, Slug, Commits, Revision
   properties:
@@ -971,8 +970,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Commits Revision
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug commits revision
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
   tags: Repositories, Username, Repo, Slug, Commits, Revision
   properties:
@@ -988,8 +987,8 @@ apis:
     parameters in the request body to avoid URL length issues.
 
     **Note that this resource does NOT support new commit creation.**
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
   tags: Repositories, Username, Repo, Slug, Commits, Revision
   properties:
@@ -1004,8 +1003,8 @@ apis:
 
     This resource is only available on repositories that have the issue
     tracker enabled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components
   tags: Repositories, Username, Repo, Slug, Components
   properties:
@@ -1016,8 +1015,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Components
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug components
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components
   tags: Repositories, Username, Repo, Slug, Components
   properties:
@@ -1028,8 +1027,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Components Component
   x-api-slug: bitbucket
   description: Get repositories username repo slug components component
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components/{component_id}
   tags: Repositories, Username, Repo, Slug, Components, Component
   properties:
@@ -1040,8 +1039,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Components Component
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug components component
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components/{component_id}
   tags: Repositories, Username, Repo, Slug, Components, Component
   properties:
@@ -1056,8 +1055,8 @@ apis:
 
     These are the users that are automatically added as reviewers on every
     new pull request that is created.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers
   tags: Repositories, Username, Repo, Slug, Default, Reviewers
   properties:
@@ -1068,8 +1067,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Default Reviewers
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug default reviewers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers
   tags: Repositories, Username, Repo, Slug, Default, Reviewers
   properties:
@@ -1081,8 +1080,8 @@ apis:
     Username
   x-api-slug: bitbucket
   description: Delete repositories username repo slug default reviewers target username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers/{target_username}
   tags: Repositories, Username, Repo, Slug, Default, Reviewers, Target, Username
   properties:
@@ -1098,8 +1097,8 @@ apis:
     This can be used to test whether a user is among the repository's
     default reviewers list. A 404 indicates that that specified user is not
     a default reviewer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers/{target_username}
   tags: Repositories, Username, Repo, Slug, Default, Reviewers, Target, Username
   properties:
@@ -1112,8 +1111,8 @@ apis:
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug default reviewers target
     username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers/{target_username}
   tags: Repositories, Username, Repo, Slug, Default, Reviewers, Target, Username
   properties:
@@ -1129,8 +1128,8 @@ apis:
     reviewers.
 
     This method is idempotent. Adding a user a second time has no effect.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/default-reviewers/{target_username}
   tags: Repositories, Username, Repo, Slug, Default, Reviewers, Target, Username
   properties:
@@ -1165,8 +1164,8 @@ apis:
     The raw diff is returned as-is, in whatever encoding the files in the
     repository use. It is not decoded into unicode. As such, the
     content-type is `text/plain`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/diff/{spec}
   tags: Repositories, Username, Repo, Slug, Diff, Spec
   properties:
@@ -1177,8 +1176,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Diff Spec
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug diff spec
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/diff/{spec}
   tags: Repositories, Username, Repo, Slug, Diff, Spec
   properties:
@@ -1189,8 +1188,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Downloads
   x-api-slug: bitbucket
   description: Returns a list of download links associated with the repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
   tags: Repositories, Username, Repo, Slug, Downloads
   properties:
@@ -1201,8 +1200,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Downloads
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug downloads
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
   tags: Repositories, Username, Repo, Slug, Downloads
   properties:
@@ -1223,8 +1222,8 @@ apis:
 
     When a file is uploaded with the same name as an existing artifact,
     then the existing file will be replaced.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
   tags: Repositories, Username, Repo, Slug, Downloads
   properties:
@@ -1235,8 +1234,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Downloads Filename
   x-api-slug: bitbucket
   description: Deletes the specified download artifact from the repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
   tags: Repositories, Username, Repo, Slug, Downloads, Filename
   properties:
@@ -1254,8 +1253,8 @@ apis:
 
         $ curl -s -L https://api.bitbucket.org/2.0/repositories/evzijst/git-tests/downloads/hello.txt
         Hello World
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
   tags: Repositories, Username, Repo, Slug, Downloads, Filename
   properties:
@@ -1266,8 +1265,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Downloads Filename
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug downloads filename
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
   tags: Repositories, Username, Repo, Slug, Downloads, Filename
   properties:
@@ -1280,8 +1279,8 @@ apis:
   description: |-
     Returns a paginated list of all the forks of the specified
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/forks
   tags: Repositories, Username, Repo, Slug, Forks
   properties:
@@ -1292,8 +1291,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Forks
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug forks
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/forks
   tags: Repositories, Username, Repo, Slug, Forks
   properties:
@@ -1304,8 +1303,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Hooks
   x-api-slug: bitbucket
   description: Returns a paginated list of webhooks installed on this repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks
   tags: Repositories, Username, Repo, Slug, Hooks
   properties:
@@ -1316,8 +1315,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Hooks
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug hooks
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks
   tags: Repositories, Username, Repo, Slug, Hooks
   properties:
@@ -1352,8 +1351,8 @@ apis:
 
     Also note that the `url` must properly resolve and cannot be an
     internal, non-routed address.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks
   tags: Repositories, Username, Repo, Slug, Hooks
   properties:
@@ -1366,8 +1365,8 @@ apis:
   description: |-
     Deletes the specified webhook subscription from the given
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks/{uid}
   tags: Repositories, Username, Repo, Slug, Hooks, U
   properties:
@@ -1380,8 +1379,8 @@ apis:
   description: |-
     Returns the webhook with the specified id installed on the specified
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks/{uid}
   tags: Repositories, Username, Repo, Slug, Hooks, U
   properties:
@@ -1392,8 +1391,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Hooks U
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug hooks u
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks/{uid}
   tags: Repositories, Username, Repo, Slug, Hooks, U
   properties:
@@ -1412,8 +1411,8 @@ apis:
     * `url`
     * `active`
     * `events`
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/hooks/{uid}
   tags: Repositories, Username, Repo, Slug, Hooks, U
   properties:
@@ -1424,8 +1423,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Issues
   x-api-slug: bitbucket
   description: Get repositories username repo slug issues
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues
   tags: Repositories, Username, Repo, Slug, Issues
   properties:
@@ -1436,8 +1435,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues
   tags: Repositories, Username, Repo, Slug, Issues
   properties:
@@ -1455,8 +1454,8 @@ apis:
     has appropriate authorisation.
 
     The authenticated user is used for the issue's `reporter` field.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues
   tags: Repositories, Username, Repo, Slug, Issues
   properties:
@@ -1467,8 +1466,8 @@ apis:
   description: |-
     Deletes the specified issue. This requires write access to the
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}
   tags: Repositories, Username, Repo, Slug, Issues, Issue
   properties:
@@ -1479,8 +1478,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Issues Issue
   x-api-slug: bitbucket
   description: Get repositories username repo slug issues issue
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}
   tags: Repositories, Username, Repo, Slug, Issues, Issue
   properties:
@@ -1491,8 +1490,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}
   tags: Repositories, Username, Repo, Slug, Issues, Issue
   properties:
@@ -1509,8 +1508,8 @@ apis:
     actual contents.
 
     The files are always ordered by their upload date.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
   properties:
@@ -1521,8 +1520,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Attachments
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  attachments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
   properties:
@@ -1540,8 +1539,8 @@ apis:
 
     When a file is uploaded with the same name as an existing attachment,
     then the existing file will be replaced.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments
   properties:
@@ -1553,8 +1552,8 @@ apis:
     Path
   x-api-slug: bitbucket
   description: Delete repositories username repo slug issues issue  attachments path
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
   properties:
@@ -1573,8 +1572,8 @@ apis:
 
     The redirect URL contains a one-time token that has a limited lifetime.
     As a result, the link should not be persisted, stored, or shared.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
   properties:
@@ -1587,8 +1586,8 @@ apis:
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  attachments
     path
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/attachments/{path}
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Attachments, Path
   properties:
@@ -1603,8 +1602,8 @@ apis:
 
     The default sorting is oldest to newest and can be overridden with
     the `sort` query parameter.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/comments
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Comments
   properties:
@@ -1615,8 +1614,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Comments
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/comments
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Comments
   properties:
@@ -1627,8 +1626,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Issues Issue  Comments Comment
   x-api-slug: bitbucket
   description: Get repositories username repo slug issues issue  comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Comments, Comment
   properties:
@@ -1640,8 +1639,8 @@ apis:
     Comment
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Comments, Comment
   properties:
@@ -1652,8 +1651,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Issues Issue  Vote
   x-api-slug: bitbucket
   description: Delete repositories username repo slug issues issue  vote
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/vote
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Vote
   properties:
@@ -1667,8 +1666,8 @@ apis:
     Check whether the authenticated user has voted for this issue.
     A 204 status code indicates that the user has voted, while a 404
     implies they haven't.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/vote
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Vote
   properties:
@@ -1679,8 +1678,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Vote
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  vote
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/vote
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Vote
   properties:
@@ -1695,8 +1694,8 @@ apis:
 
     To cast your vote, do an empty PUT. The 204 status code indicates that
     the operation was successful.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/vote
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Vote
   properties:
@@ -1707,8 +1706,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Issues Issue  Watch
   x-api-slug: bitbucket
   description: Delete repositories username repo slug issues issue  watch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/watch
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Watch
   properties:
@@ -1721,8 +1720,8 @@ apis:
   description: |-
     Indicated whether or not the authenticated user is watching this
     issue.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/watch
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Watch
   properties:
@@ -1733,8 +1732,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Watch
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug issues issue  watch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/watch
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Watch
   properties:
@@ -1749,8 +1748,8 @@ apis:
 
     To start watching this issue, do an empty PUT. The 204 status code
     indicates that the operation was successful.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/issues/{issue_id}/watch
   tags: Repositories, Username, Repo, Slug, Issues, Issue, , Watch
   properties:
@@ -1765,8 +1764,8 @@ apis:
 
     This resource is only available on repositories that have the issue
     tracker enabled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/milestones
   tags: Repositories, Username, Repo, Slug, Milestones
   properties:
@@ -1777,8 +1776,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Milestones
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug milestones
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/milestones
   tags: Repositories, Username, Repo, Slug, Milestones
   properties:
@@ -1789,8 +1788,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Milestones Milestone
   x-api-slug: bitbucket
   description: Get repositories username repo slug milestones milestone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/milestones/{milestone_id}
   tags: Repositories, Username, Repo, Slug, Milestones, Milestone
   properties:
@@ -1801,8 +1800,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Milestones Milestone
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug milestones milestone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/milestones/{milestone_id}
   tags: Repositories, Username, Repo, Slug, Milestones, Milestone
   properties:
@@ -1831,8 +1830,8 @@ apis:
     The raw patch is returned as-is, in whatever encoding the files in the
     repository use. It is not decoded into unicode. As such, the
     content-type is `text/plain`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/patch/{spec}
   tags: Repositories, Username, Repo, Slug, Patch, Spec
   properties:
@@ -1843,8 +1842,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Patch Spec
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug patch spec
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/patch/{spec}
   tags: Repositories, Username, Repo, Slug, Patch, Spec
   properties:
@@ -1855,8 +1854,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/
   tags: Repositories, Username, Repo, Slug, Pipelines
   properties:
@@ -1912,8 +1911,8 @@ apis:
     \"custom\",\n          \"pattern\": \"Deploy to production\"\n       },\n       \"type\":
     \"pipeline_ref_target\",\n       \"ref_name\": \"master\",\n       \"ref_type\":
     \"branch\"\n     }\n  }'\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/
   tags: Repositories, Username, Repo, Slug, Pipelines
   properties:
@@ -1922,8 +1921,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines Pipeline Uu
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines pipeline uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/{pipeline_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Pipeline, Uu
   properties:
@@ -1934,8 +1933,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines Pipeline Uu Steps
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines pipeline uu steps
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/{pipeline_uuid}/steps/
   tags: Repositories, Username, Repo, Slug, Pipelines, Pipeline, Uu, Steps
   properties:
@@ -1948,8 +1947,8 @@ apis:
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines pipeline uu steps step
     uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/{pipeline_uuid}/steps/{step_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Pipeline, Uu, Steps, Step,
     Uu
@@ -1965,8 +1964,8 @@ apis:
     Retrieve the log file for a given step of a pipeline.
 
     This endpoint supports (and encourages!) the use of [HTTP Range requests](https://tools.ietf.org/html/rfc7233) to deal with potentially very large log files.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/{pipeline_uuid}/steps/{step_uuid}/log
   tags: Repositories, Username, Repo, Slug, Pipelines, Pipeline, Uu, Steps, Step,
     Uu, Log
@@ -1979,8 +1978,8 @@ apis:
   x-api-slug: bitbucket
   description: Signal the stop of a pipeline and all of its steps that not have completed
     yet.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines/{pipeline_uuid}/stopPipeline
   tags: Repositories, Username, Repo, Slug, Pipelines, Pipeline, Uu, Stoppipeline
   properties:
@@ -1991,8 +1990,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines Config
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines config
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config
   tags: Repositories, Username, Repo, Slug, Pipelines, Config
   properties:
@@ -2003,8 +2002,8 @@ apis:
 - name: Bitbucket Update Repositories Username Repo Slug Pipelines Config
   x-api-slug: bitbucket
   description: Update the pipelines configuration for a repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config
   tags: Repositories, Username, Repo, Slug, Pipelines, Config
   properties:
@@ -2014,8 +2013,8 @@ apis:
     Pair
   x-api-slug: bitbucket
   description: Delete repositories username repo slug pipelines config ssh key pair
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/key_pair
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Key, Pair
   properties:
@@ -2028,8 +2027,8 @@ apis:
   description: Retrieve the repository SSH key pair excluding the SSH private key.
     The private key is a write only field and will never be exposed in the logs or
     the REST API.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/key_pair
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Key, Pair
   properties:
@@ -2042,8 +2041,8 @@ apis:
   x-api-slug: bitbucket
   description: Create or update the repository SSH key pair. The private key will
     be set as a default SSH identity in your build container.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/key_pair
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Key, Pair
   properties:
@@ -2052,8 +2051,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines Config Ssh Known Hosts
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines config ssh known hosts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/known_hosts/
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Known, Hosts
   properties:
@@ -2064,8 +2063,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pipelines Config Ssh Known Hosts
   x-api-slug: bitbucket
   description: Post repositories username repo slug pipelines config ssh known hosts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/known_hosts/
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Known, Hosts
   properties:
@@ -2076,8 +2075,8 @@ apis:
   x-api-slug: bitbucket
   description: Delete repositories username repo slug pipelines config ssh known hosts
     known host uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/known_hosts/{known_host_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Known, Hosts,
     Known, Host, Uu
@@ -2091,8 +2090,8 @@ apis:
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines config ssh known hosts
     known host uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/known_hosts/{known_host_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Known, Hosts,
     Known, Host, Uu
@@ -2106,8 +2105,8 @@ apis:
   x-api-slug: bitbucket
   description: Put repositories username repo slug pipelines config ssh known hosts
     known host uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/ssh/known_hosts/{known_host_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Ssh, Known, Hosts,
     Known, Host, Uu
@@ -2117,8 +2116,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pipelines Config Variables
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/variables/
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Variables
   properties:
@@ -2129,8 +2128,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pipelines Config Variables
   x-api-slug: bitbucket
   description: Post repositories username repo slug pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/variables/
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Variables
   properties:
@@ -2141,8 +2140,8 @@ apis:
   x-api-slug: bitbucket
   description: Delete repositories username repo slug pipelines config variables variable
     uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/variables/{variable_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Variables, Variable,
     Uu
@@ -2156,8 +2155,8 @@ apis:
   x-api-slug: bitbucket
   description: Get repositories username repo slug pipelines config variables variable
     uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/variables/{variable_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Variables, Variable,
     Uu
@@ -2171,8 +2170,8 @@ apis:
   x-api-slug: bitbucket
   description: Put repositories username repo slug pipelines config variables variable
     uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pipelines_config/variables/{variable_uuid}
   tags: Repositories, Username, Repo, Slug, Pipelines, Config, Variables, Variable,
     Uu
@@ -2190,8 +2189,8 @@ apis:
 
     This endpoint also supports filtering and sorting of the results. See
     [filtering and sorting](../../../../meta/filtering) for more details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests
   tags: Repositories, Username, Repo, Slug, Pullrequests
   properties:
@@ -2202,8 +2201,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests
   tags: Repositories, Username, Repo, Slug, Pullrequests
   properties:
@@ -2214,8 +2213,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pullrequests
   x-api-slug: bitbucket
   description: Post repositories username repo slug pullrequests
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests
   tags: Repositories, Username, Repo, Slug, Pullrequests
   properties:
@@ -2228,8 +2227,8 @@ apis:
 
     This includes comments that were made by the reviewers, updates and
     approvals.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/activity
   tags: Repositories, Username, Repo, Slug, Pullrequests, Activity
   properties:
@@ -2240,8 +2239,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Activity
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests activity
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/activity
   tags: Repositories, Username, Repo, Slug, Pullrequests, Activity
   properties:
@@ -2252,8 +2251,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request
   x-api-slug: bitbucket
   description: Get repositories username repo slug pullrequests pull request
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request
   properties:
@@ -2264,8 +2263,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request
   properties:
@@ -2281,8 +2280,8 @@ apis:
     This can be used to change the pull request's branches or description.
 
     Only open pull requests can be mutated.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request
   properties:
@@ -2295,8 +2294,8 @@ apis:
 
     This includes comments that were made by the reviewers, updates and
     approvals.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/activity
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Activity
   properties:
@@ -2307,8 +2306,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Activity
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  activity
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/activity
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Activity
   properties:
@@ -2319,8 +2318,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Pullrequests Pull Request  Approve
   x-api-slug: bitbucket
   description: Delete repositories username repo slug pullrequests pull request  approve
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/approve
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Approve
   properties:
@@ -2331,8 +2330,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Approve
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  approve
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/approve
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Approve
   properties:
@@ -2343,8 +2342,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pullrequests Pull Request  Approve
   x-api-slug: bitbucket
   description: Post repositories username repo slug pullrequests pull request  approve
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/approve
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Approve
   properties:
@@ -2365,8 +2364,8 @@ apis:
     This endpoint also supports filtering and sorting of the results. See
     [filtering and sorting](../../../../../../meta/filtering) for more
     details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/comments
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Comments
   properties:
@@ -2377,8 +2376,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Comments
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/comments
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Comments
   properties:
@@ -2391,8 +2390,8 @@ apis:
   x-api-slug: bitbucket
   description: Get repositories username repo slug pullrequests pull request  comments
     comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Comments,
     Comment
@@ -2406,8 +2405,8 @@ apis:
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  comments
     comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/comments/{comment_id}
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Comments,
     Comment
@@ -2423,8 +2422,8 @@ apis:
 
     These are the commits that are being merged into the destination
     branch when the pull requests gets accepted.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/commits
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Commits
   properties:
@@ -2435,8 +2434,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Commits
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  commits
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/commits
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Commits
   properties:
@@ -2447,8 +2446,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Decline
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  decline
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/decline
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Decline
   properties:
@@ -2459,8 +2458,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pullrequests Pull Request  Decline
   x-api-slug: bitbucket
   description: Post repositories username repo slug pullrequests pull request  decline
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/decline
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Decline
   properties:
@@ -2471,8 +2470,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Diff
   x-api-slug: bitbucket
   description: Get repositories username repo slug pullrequests pull request  diff
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/diff
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Diff
   properties:
@@ -2483,8 +2482,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Diff
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  diff
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/diff
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Diff
   properties:
@@ -2495,8 +2494,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Merge
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  merge
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/merge
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Merge
   properties:
@@ -2507,8 +2506,8 @@ apis:
 - name: Bitbucket Add Repositories Username Repo Slug Pullrequests Pull Request  Merge
   x-api-slug: bitbucket
   description: Post repositories username repo slug pullrequests pull request  merge
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/merge
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Merge
   properties:
@@ -2517,8 +2516,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Patch
   x-api-slug: bitbucket
   description: Get repositories username repo slug pullrequests pull request  patch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/patch
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Patch
   properties:
@@ -2529,8 +2528,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Patch
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  patch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/patch
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Patch
   properties:
@@ -2541,8 +2540,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Statuses
   x-api-slug: bitbucket
   description: Get repositories username repo slug pullrequests pull request  statuses
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/statuses
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Statuses
   properties:
@@ -2553,8 +2552,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Statuses
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug pullrequests pull request  statuses
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/statuses
   tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Statuses
   properties:
@@ -2565,8 +2564,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Refs
   x-api-slug: bitbucket
   description: Get repositories username repo slug refs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs
   tags: Repositories, Username, Repo, Slug, Refs
   properties:
@@ -2577,8 +2576,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Refs
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug refs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs
   tags: Repositories, Username, Repo, Slug, Refs
   properties:
@@ -2589,8 +2588,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Refs Branches
   x-api-slug: bitbucket
   description: Get repositories username repo slug refs branches
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
   tags: Repositories, Username, Repo, Slug, Refs, Branches
   properties:
@@ -2601,8 +2600,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug refs branches
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
   tags: Repositories, Username, Repo, Slug, Refs, Branches
   properties:
@@ -2613,8 +2612,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Refs Branches Name
   x-api-slug: bitbucket
   description: Get repositories username repo slug refs branches name
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
   tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
   properties:
@@ -2625,8 +2624,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches Name
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug refs branches name
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
   tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
   properties:
@@ -2637,8 +2636,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Refs Tags
   x-api-slug: bitbucket
   description: Get repositories username repo slug refs tags
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
   tags: Repositories, Username, Repo, Slug, Refs, Tags
   properties:
@@ -2649,8 +2648,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Refs Tags
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug refs tags
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
   tags: Repositories, Username, Repo, Slug, Refs, Tags
   properties:
@@ -2678,8 +2677,8 @@ apis:
     This endpoint does support using short hash prefixes for the commit
     hash, but it may return a 400 response if the provided prefix is
     ambiguous. Using a full commit hash is the preferred approach.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags
   tags: Repositories, Username, Repo, Slug, Refs, Tags
   properties:
@@ -2688,8 +2687,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Refs Tags Name
   x-api-slug: bitbucket
   description: Get repositories username repo slug refs tags name
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags/{name}
   tags: Repositories, Username, Repo, Slug, Refs, Tags, Name
   properties:
@@ -2700,8 +2699,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Refs Tags Name
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug refs tags name
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/tags/{name}
   tags: Repositories, Username, Repo, Slug, Refs, Tags, Name
   properties:
@@ -2712,8 +2711,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Src Node Path
   x-api-slug: bitbucket
   description: Get repositories username repo slug src node path
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/src/{node}/{path}
   tags: Repositories, Username, Repo, Slug, Src, Node, Path
   properties:
@@ -2724,8 +2723,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Src Node Path
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug src node path
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/src/{node}/{path}
   tags: Repositories, Username, Repo, Slug, Src, Node, Path
   properties:
@@ -2740,8 +2739,8 @@ apis:
 
     This resource is only available on repositories that have the issue
     tracker enabled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions
   tags: Repositories, Username, Repo, Slug, Versions
   properties:
@@ -2752,8 +2751,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Versions
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug versions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions
   tags: Repositories, Username, Repo, Slug, Versions
   properties:
@@ -2764,8 +2763,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Versions Version
   x-api-slug: bitbucket
   description: Get repositories username repo slug versions version
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions/{version_id}
   tags: Repositories, Username, Repo, Slug, Versions, Version
   properties:
@@ -2776,8 +2775,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Versions Version
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug versions version
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/versions/{version_id}
   tags: Repositories, Username, Repo, Slug, Versions, Version
   properties:
@@ -2790,8 +2789,8 @@ apis:
   description: |-
     Returns a paginated list of all the watchers on the specified
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/watchers
   tags: Repositories, Username, Repo, Slug, Watchers
   properties:
@@ -2802,8 +2801,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Watchers
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug watchers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/watchers
   tags: Repositories, Username, Repo, Slug, Watchers
   properties:
@@ -2837,8 +2836,8 @@ apis:
     only supports `application/json` responses and no
     `multipart/form-data` or `multipart/related`. As a result, it is not
     possible to include the file contents.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets
   tags: Snippets
   properties:
@@ -2849,8 +2848,8 @@ apis:
 - name: Bitbucket Parameters Snippets
   x-api-slug: bitbucket
   description: Parameters snippets
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets
   tags: Snippets
   properties:
@@ -3011,8 +3010,8 @@ apis:
 
     To create the snippet under a team account, just append the team name
     to the URL (see `/2.0/snippets/{username}`).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets
   tags: Snippets
   properties:
@@ -3024,8 +3023,8 @@ apis:
     Identical to `/snippets`, except that the result is further filtered
     by the snippet owner and only those that are owned by `{username}` are
     returned.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}
   tags: Snippets, Username
   properties:
@@ -3036,8 +3035,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username
   x-api-slug: bitbucket
   description: Parameters snippets username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}
   tags: Snippets, Username
   properties:
@@ -3050,8 +3049,8 @@ apis:
   description: |-
     Identical to `/snippets`, except that the new snippet will be
     created under the account specified in the path parameter `{username}`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}
   tags: Snippets, Username
   properties:
@@ -3060,8 +3059,8 @@ apis:
 - name: Bitbucket Delete Snippets Username Encoded
   x-api-slug: bitbucket
   description: Deletes a snippet and returns an empty response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
   tags: Snippets, Username, Encoded
   properties:
@@ -3256,8 +3255,8 @@ apis:
         73Oc4FHzBaZ8llq4q1mr5B2mOUCt815qYR8eB1hG2VJ7j35q4RofaH7IG+Xrf/PfJhfmwtfFYoIN
         AqxFUD6OMxcvkO+UfKfkOyXfKdsv/AYCHMLVkHAFWgAAAABJRU5ErkJggg==
         ------------------------------5957323a6b76--
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
   tags: Snippets, Username, Encoded
   properties:
@@ -3268,8 +3267,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded
   x-api-slug: bitbucket
   description: Parameters snippets username encoded
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
   tags: Snippets, Username, Encoded
   properties:
@@ -3478,8 +3477,8 @@ apis:
     The default mode of operation is for file parts to be processed,
     regardless of whether or not they are listed in `files`, as a
     convenience to the client.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
   tags: Snippets, Username, Encoded
   properties:
@@ -3497,8 +3496,8 @@ apis:
 
     The default sorting is oldest to newest and can be overridden with
     the `sort` query parameter.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
   tags: Snippets, Username, Encoded, , Comments
   properties:
@@ -3509,8 +3508,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Comments
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
   tags: Snippets, Username, Encoded, , Comments
   properties:
@@ -3526,8 +3525,8 @@ apis:
     The only required field in the body is `content.raw`.
 
     To create a threaded reply to an existing comment, include `parent.id`.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
   tags: Snippets, Username, Encoded, , Comments
   properties:
@@ -3539,8 +3538,8 @@ apis:
     Deletes a snippet comment.
 
     Comments can only be removed by their author.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
   tags: Snippets, Username, Encoded, , Comments, Comment
   properties:
@@ -3551,8 +3550,8 @@ apis:
 - name: Bitbucket Get Snippets Username Encoded  Comments Comment
   x-api-slug: bitbucket
   description: Get snippets username encoded  comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
   tags: Snippets, Username, Encoded, , Comments, Comment
   properties:
@@ -3563,8 +3562,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Comments Comment
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
   tags: Snippets, Username, Encoded, , Comments, Comment
   properties:
@@ -3578,8 +3577,8 @@ apis:
     Updates a comment.
 
     Comments can only be updated by their author.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
   tags: Snippets, Username, Encoded, , Comments, Comment
   properties:
@@ -3590,8 +3589,8 @@ apis:
 - name: Bitbucket Get Snippets Username Encoded  Commits
   x-api-slug: bitbucket
   description: Returns the changes (commits) made on this snippet.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
   tags: Snippets, Username, Encoded, , Commits
   properties:
@@ -3602,8 +3601,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Commits
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  commits
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
   tags: Snippets, Username, Encoded, , Commits
   properties:
@@ -3614,8 +3613,8 @@ apis:
 - name: Bitbucket Get Snippets Username Encoded  Commits Revision
   x-api-slug: bitbucket
   description: Get snippets username encoded  commits revision
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
   tags: Snippets, Username, Encoded, , Commits, Revision
   properties:
@@ -3626,8 +3625,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Commits Revision
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  commits revision
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
   tags: Snippets, Username, Encoded, , Commits, Revision
   properties:
@@ -3640,8 +3639,8 @@ apis:
   description: |-
     Used to stop watching a specific snippet. Returns 204 (No Content)
     to indicate success.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
   tags: Snippets, Username, Encoded, , Watch
   properties:
@@ -3658,8 +3657,8 @@ apis:
     not.
 
     Hitting this endpoint anonymously always returns a 404.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
   tags: Snippets, Username, Encoded, , Watch
   properties:
@@ -3670,8 +3669,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Watch
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  watch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
   tags: Snippets, Username, Encoded, , Watch
   properties:
@@ -3682,8 +3681,8 @@ apis:
 - name: Bitbucket Update Snippets Username Encoded  Watch
   x-api-slug: bitbucket
   description: Used to start watching a specific snippet. Returns 204 (No Content).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
   tags: Snippets, Username, Encoded, , Watch
   properties:
@@ -3694,8 +3693,8 @@ apis:
 - name: Bitbucket Get Snippets Username Encoded  Watchers
   x-api-slug: bitbucket
   description: Returns a paginated list of all users watching a specific snippet.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watchers
   tags: Snippets, Username, Encoded, , Watchers
   properties:
@@ -3706,8 +3705,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Watchers
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  watchers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watchers
   tags: Snippets, Username, Encoded, , Watchers
   properties:
@@ -3726,8 +3725,8 @@ apis:
 
     To delete a snippet, regardless of whether or not concurrent changes
     are being made to it, use `DELETE /snippets/{encoded_id}` instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
   tags: Snippets, Username, Encoded, , Node
   properties:
@@ -3747,8 +3746,8 @@ apis:
     meta data properties like the title.
 
     Other than that, the two endpoints are identical in behavior.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
   tags: Snippets, Username, Encoded, , Node
   properties:
@@ -3759,8 +3758,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Node
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  node
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
   tags: Snippets, Username, Encoded, , Node
   properties:
@@ -3785,8 +3784,8 @@ apis:
     operation.
 
     Other than that, the two endpoints are identical in behavior.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
   tags: Snippets, Username, Encoded, , Node
   properties:
@@ -3806,8 +3805,8 @@ apis:
 
     Note that for text files, no character encoding is included as part of
     the content type.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}/files/{path}
   tags: Snippets, Username, Encoded, , Node, , Files, Path
   properties:
@@ -3818,8 +3817,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Node  Files Path
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  node  files path
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}/files/{path}
   tags: Snippets, Username, Encoded, , Node, , Files, Path
   properties:
@@ -3849,8 +3848,8 @@ apis:
     Note that the character encoding of the contents of the diff is
     unspecified as Git and Mercurial do not track this, making it hard for
     Bitbucket to reliably determine this.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/diff
   tags: Snippets, Username, Encoded, , Revision, Diff
   properties:
@@ -3861,8 +3860,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Revision Diff
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  revision diff
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/diff
   tags: Snippets, Username, Encoded, , Revision, Diff
   properties:
@@ -3893,8 +3892,8 @@ apis:
     Note that the character encoding of the contents of the patch is
     unspecified as Git and Mercurial do not track this, making it hard for
     Bitbucket to reliably determine this.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/patch
   tags: Snippets, Username, Encoded, , Revision, Patch
   properties:
@@ -3905,8 +3904,8 @@ apis:
 - name: Bitbucket Parameters Snippets Username Encoded  Revision Patch
   x-api-slug: bitbucket
   description: Parameters snippets username encoded  revision patch
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/patch
   tags: Snippets, Username, Encoded, , Revision, Patch
   properties:
@@ -3919,8 +3918,8 @@ apis:
   description: |-
     Returns all the teams that the authenticated user is associated
     with.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams
   tags: Teams
   properties:
@@ -3931,8 +3930,8 @@ apis:
 - name: Bitbucket Parameters Teams
   x-api-slug: bitbucket
   description: Parameters teams
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams
   tags: Teams
   properties:
@@ -3943,8 +3942,8 @@ apis:
 - name: Bitbucket Get Teams Owner Projects
   x-api-slug: bitbucket
   description: Get teams owner projects
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/
   tags: Teams, Owner, Projects
   properties:
@@ -3955,8 +3954,8 @@ apis:
 - name: Bitbucket Parameters Teams Owner Projects
   x-api-slug: bitbucket
   description: Parameters teams owner projects
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/
   tags: Teams, Owner, Projects
   properties:
@@ -4021,8 +4020,8 @@ apis:
       // Serialized project document
     }
     ```
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/
   tags: Teams, Owner, Projects
   properties:
@@ -4031,8 +4030,8 @@ apis:
 - name: Bitbucket Delete Teams Owner Projects Project Key
   x-api-slug: bitbucket
   description: Delete teams owner projects project key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/{project_key}
   tags: Teams, Owner, Projects, Project, Key
   properties:
@@ -4043,8 +4042,8 @@ apis:
 - name: Bitbucket Get Teams Owner Projects Project Key
   x-api-slug: bitbucket
   description: Get teams owner projects project key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/{project_key}
   tags: Teams, Owner, Projects, Project, Key
   properties:
@@ -4055,8 +4054,8 @@ apis:
 - name: Bitbucket Parameters Teams Owner Projects Project Key
   x-api-slug: bitbucket
   description: Parameters teams owner projects project key
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/{project_key}
   tags: Teams, Owner, Projects, Project, Key
   properties:
@@ -4089,8 +4088,8 @@ apis:
     to change the key itself. In such a scenario, the location of the
     project is changed and is returned in the `Location` header of the
     response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{owner}/projects/{project_key}
   tags: Teams, Owner, Projects, Project, Key
   properties:
@@ -4103,8 +4102,8 @@ apis:
 
     If the team's profile is private, `location`, `website` and
     `created_on` elements are omitted.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}
   tags: Teams, Username
   properties:
@@ -4115,8 +4114,8 @@ apis:
 - name: Bitbucket Parameters Teams Username
   x-api-slug: bitbucket
   description: Parameters teams username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}
   tags: Teams, Username
   properties:
@@ -4127,8 +4126,8 @@ apis:
 - name: Bitbucket Get Teams Username Followers
   x-api-slug: bitbucket
   description: Returns the list of accounts that are following this team.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/followers
   tags: Teams, Username, Followers
   properties:
@@ -4139,8 +4138,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Followers
   x-api-slug: bitbucket
   description: Parameters teams username followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/followers
   tags: Teams, Username, Followers
   properties:
@@ -4151,8 +4150,8 @@ apis:
 - name: Bitbucket Get Teams Username Following
   x-api-slug: bitbucket
   description: Returns the list of accounts this team is following.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/following
   tags: Teams, Username, Following
   properties:
@@ -4163,8 +4162,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Following
   x-api-slug: bitbucket
   description: Parameters teams username following
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/following
   tags: Teams, Username, Following
   properties:
@@ -4175,8 +4174,8 @@ apis:
 - name: Bitbucket Get Teams Username Hooks
   x-api-slug: bitbucket
   description: Returns a paginated list of webhooks installed on this team.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks
   tags: Teams, Username, Hooks
   properties:
@@ -4187,8 +4186,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Hooks
   x-api-slug: bitbucket
   description: Parameters teams username hooks
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks
   tags: Teams, Username, Hooks
   properties:
@@ -4205,8 +4204,8 @@ apis:
     that team account.
 
     Note that only admins can install webhooks on teams.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks
   tags: Teams, Username, Hooks
   properties:
@@ -4219,8 +4218,8 @@ apis:
   description: |-
     Deletes the specified webhook subscription from the given team
     account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks/{uid}
   tags: Teams, Username, Hooks, U
   properties:
@@ -4233,8 +4232,8 @@ apis:
   description: |-
     Returns the webhook with the specified id installed on the given
     team account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks/{uid}
   tags: Teams, Username, Hooks, U
   properties:
@@ -4245,8 +4244,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Hooks U
   x-api-slug: bitbucket
   description: Parameters teams username hooks u
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks/{uid}
   tags: Teams, Username, Hooks, U
   properties:
@@ -4265,8 +4264,8 @@ apis:
     * `url`
     * `active`
     * `events`
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/hooks/{uid}
   tags: Teams, Username, Hooks, U
   properties:
@@ -4285,8 +4284,8 @@ apis:
     repositories.
 
     Note that members using the "private profile" feature are not included.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/members
   tags: Teams, Username, Members
   properties:
@@ -4297,8 +4296,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Members
   x-api-slug: bitbucket
   description: Parameters teams username members
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/members
   tags: Teams, Username, Members
   properties:
@@ -4309,8 +4308,8 @@ apis:
 - name: Bitbucket Get Teams Username Pipelines Config Variables
   x-api-slug: bitbucket
   description: Get teams username pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/pipelines_config/variables/
   tags: Teams, Username, Pipelines, Config, Variables
   properties:
@@ -4321,8 +4320,8 @@ apis:
 - name: Bitbucket Add Teams Username Pipelines Config Variables
   x-api-slug: bitbucket
   description: Post teams username pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/pipelines_config/variables/
   tags: Teams, Username, Pipelines, Config, Variables
   properties:
@@ -4331,8 +4330,8 @@ apis:
 - name: Bitbucket Delete Teams Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Delete teams username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/pipelines_config/variables/{variable_uuid}
   tags: Teams, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4343,8 +4342,8 @@ apis:
 - name: Bitbucket Get Teams Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Get teams username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/pipelines_config/variables/{variable_uuid}
   tags: Teams, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4355,8 +4354,8 @@ apis:
 - name: Bitbucket Update Teams Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Put teams username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/pipelines_config/variables/{variable_uuid}
   tags: Teams, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4368,8 +4367,8 @@ apis:
     All repositories owned by a user/team. This includes private
     repositories, but filtered down to the ones that the calling user has
     access to.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/repositories
   tags: Teams, Username, Repositories
   properties:
@@ -4380,8 +4379,8 @@ apis:
 - name: Bitbucket Parameters Teams Username Repositories
   x-api-slug: bitbucket
   description: Parameters teams username repositories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//teams/{username}/repositories
   tags: Teams, Username, Repositories
   properties:
@@ -4392,8 +4391,8 @@ apis:
 - name: Bitbucket Get User
   x-api-slug: bitbucket
   description: Returns the currently logged in user.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user
   tags: User
   properties:
@@ -4402,8 +4401,8 @@ apis:
 - name: Bitbucket Parameters User
   x-api-slug: bitbucket
   description: Parameters user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user
   tags: User
   properties:
@@ -4414,8 +4413,8 @@ apis:
   description: |-
     Returns all the authenticated user's email addresses. Both
     confirmed and unconfirmed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user/emails
   tags: User, Emails
   properties:
@@ -4426,8 +4425,8 @@ apis:
 - name: Bitbucket Parameters User Emails
   x-api-slug: bitbucket
   description: Parameters user emails
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user/emails
   tags: User, Emails
   properties:
@@ -4443,8 +4442,8 @@ apis:
 
     Details describe whether the address has been confirmed by the user and
     whether it is the user's primary address or not.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user/emails/{email}
   tags: User, Emails, Email
   properties:
@@ -4455,8 +4454,8 @@ apis:
 - name: Bitbucket Parameters User Emails Email
   x-api-slug: bitbucket
   description: Parameters user emails email
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//user/emails/{email}
   tags: User, Emails, Email
   properties:
@@ -4471,8 +4470,8 @@ apis:
 
     If the user's profile is private, `location`, `website` and
     `created_on` elements are omitted.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}
   tags: Users, Username
   properties:
@@ -4483,8 +4482,8 @@ apis:
 - name: Bitbucket Parameters Users Username
   x-api-slug: bitbucket
   description: Parameters users username
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}
   tags: Users, Username
   properties:
@@ -4495,8 +4494,8 @@ apis:
 - name: Bitbucket Get Users Username Followers
   x-api-slug: bitbucket
   description: Returns the list of accounts that are following this team.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/followers
   tags: Users, Username, Followers
   properties:
@@ -4507,8 +4506,8 @@ apis:
 - name: Bitbucket Parameters Users Username Followers
   x-api-slug: bitbucket
   description: Parameters users username followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/followers
   tags: Users, Username, Followers
   properties:
@@ -4519,8 +4518,8 @@ apis:
 - name: Bitbucket Get Users Username Following
   x-api-slug: bitbucket
   description: Returns the list of accounts this user is following.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/following
   tags: Users, Username, Following
   properties:
@@ -4531,8 +4530,8 @@ apis:
 - name: Bitbucket Parameters Users Username Following
   x-api-slug: bitbucket
   description: Parameters users username following
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/following
   tags: Users, Username, Following
   properties:
@@ -4543,8 +4542,8 @@ apis:
 - name: Bitbucket Get Users Username Hooks
   x-api-slug: bitbucket
   description: Returns a paginated list of webhooks installed on this user account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks
   tags: Users, Username, Hooks
   properties:
@@ -4555,8 +4554,8 @@ apis:
 - name: Bitbucket Parameters Users Username Hooks
   x-api-slug: bitbucket
   description: Parameters users username hooks
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks
   tags: Users, Username, Hooks
   properties:
@@ -4574,8 +4573,8 @@ apis:
 
     Note that one can only register webhooks on one's own account, not that
     of others.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks
   tags: Users, Username, Hooks
   properties:
@@ -4588,8 +4587,8 @@ apis:
   description: |-
     Deletes the specified webhook subscription from the given user
     account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks/{uid}
   tags: Users, Username, Hooks, U
   properties:
@@ -4602,8 +4601,8 @@ apis:
   description: |-
     Returns the webhook with the specified id installed on the given
     user account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks/{uid}
   tags: Users, Username, Hooks, U
   properties:
@@ -4614,8 +4613,8 @@ apis:
 - name: Bitbucket Parameters Users Username Hooks U
   x-api-slug: bitbucket
   description: Parameters users username hooks u
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks/{uid}
   tags: Users, Username, Hooks, U
   properties:
@@ -4634,8 +4633,8 @@ apis:
     * `url`
     * `active`
     * `events`
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/hooks/{uid}
   tags: Users, Username, Hooks, U
   properties:
@@ -4646,8 +4645,8 @@ apis:
 - name: Bitbucket Get Users Username Pipelines Config Variables
   x-api-slug: bitbucket
   description: Get users username pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/pipelines_config/variables/
   tags: Users, Username, Pipelines, Config, Variables
   properties:
@@ -4658,8 +4657,8 @@ apis:
 - name: Bitbucket Add Users Username Pipelines Config Variables
   x-api-slug: bitbucket
   description: Post users username pipelines config variables
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/pipelines_config/variables/
   tags: Users, Username, Pipelines, Config, Variables
   properties:
@@ -4668,8 +4667,8 @@ apis:
 - name: Bitbucket Delete Users Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Delete users username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/pipelines_config/variables/{variable_uuid}
   tags: Users, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4680,8 +4679,8 @@ apis:
 - name: Bitbucket Get Users Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Get users username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/pipelines_config/variables/{variable_uuid}
   tags: Users, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4692,8 +4691,8 @@ apis:
 - name: Bitbucket Update Users Username Pipelines Config Variables Variable Uu
   x-api-slug: bitbucket
   description: Put users username pipelines config variables variable uu
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/pipelines_config/variables/{variable_uuid}
   tags: Users, Username, Pipelines, Config, Variables, Variable, Uu
   properties:
@@ -4705,8 +4704,8 @@ apis:
     All repositories owned by a user/team. This includes private
     repositories, but filtered down to the ones that the calling user has
     access to.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/repositories
   tags: Users, Username, Repositories
   properties:
@@ -4717,8 +4716,8 @@ apis:
 - name: Bitbucket Parameters Users Username Repositories
   x-api-slug: bitbucket
   description: Parameters users username repositories
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//users/{username}/repositories
   tags: Users, Username, Repositories
   properties:
@@ -4728,17 +4727,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/bitbucket/master/_listings/bitbucket/usersusernamerepositories-parameters-openapi.md
 - name: Bitbucket
   x-api-slug: bitbucket
-  description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-    data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  description: Collaborate on code with inline comments and pull requests. Manage
+    and share your Git repositories to build and ship software, as a team.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Bitbucket
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/bitbucket/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/bitbucket
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
 - type: x-documentation
@@ -4751,6 +4751,8 @@ x-common:
   url: https://www.atlassian.com/legal/customer-agreement?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
 - type: x-twitter
   url: https://twitter.com/bitbucket
+- type: x-website
+  url: http://bitbucket.org
 - type: x-website
   url: https://bitbucket.org/
 include: []
